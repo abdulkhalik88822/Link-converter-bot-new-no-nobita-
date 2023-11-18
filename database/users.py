@@ -14,13 +14,13 @@ async def get_user(user_id):
     if not user:
         res = {
             "user_id": user_id,
-            "method":"MdiskPro",
+            "method":"ddlink",
             "shortener_api": None,
-            "mdisk_api": None,
+            "ddlink_api": None,
             "header_text": "",
             "footer_text": "",
             "username": None,
-            "base_site": "Omegalinks.in",
+            "base_site": "ddlink.in",
             "banner_image": None,
             "is_banner_image": True,
             "is_username": True,
